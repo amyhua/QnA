@@ -32,7 +32,7 @@ gem 'bson', '1.4.0'
 gem 'bson_ext', '1.4.0'
 
 gem 'mongo', '1.4.0'
-gem 'mongoid', :git => 'git://github.com/mongoid/mongoid.git', :branch => '2.4.0-stable'
+gem "mongoid", "~> 3.1.4"
 
 gem 'mongoid_ext', :git => 'git://github.com/dcu/mongoid_ext.git'
 
@@ -49,7 +49,7 @@ gem 'bug_hunter', :git => 'git://github.com/ricodigo/bug_hunter.git'
 
 gem 'goalie', '~> 0.0.4'
 gem 'dynamic_form'
-gem 'rinku', '~> 1.2.2', :require => 'rails_rinku'
+gem 'rinku'
 
 gem 'rack-recaptcha', '0.2.2', :require => 'rack/recaptcha'
 
@@ -100,7 +100,7 @@ end
 group :scripts do
   gem 'eventmachine', '~> 0.12.10'
   gem 'em-websocket', '~> 0.3.0'
-  gem 'twitter', '1.7.2'
+  
 end
 
 group :test do
